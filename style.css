@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&family=Poppins&display=swap');
+*{
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-size: 16px;
+  
+}
+.header{
+  display: flex;
+  justify-content: space-around; 
+  margin-top: 50px; 
+
+}
+.header  nav ul li a {
+  text-decoration: none;
+margin: 15px;
+font-weight: bold;
+font-size: 1em;
+color: black;
+line-height: 40px;
+}
+.header  nav ul  {
+  list-style-type: none;
+}
+.icon{
+  width: 70px;
+  height: 20px;
+}
+.talk-btn{
+  width: 200px;
+  height: 50px;
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: white;
+  border-color: grey;
+}
+.language{
+  display: flex;
+  height: 450px;
+
+}
+.left-side{
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: end;
+
+}
+.left-side h2{
+  font-size: 3em;
+  display: flex;
+}
+.left-side p{
+  color: rgba(143, 149, 165, 1);
+  font-size: 24px;
+  margin-top: 30px; 
+}
+
+.lamp{
+  width: 70px;
+  margin-left: 30px;
+
+}
+.btns{
+  background-color: black;
+  color: white;
+  font-size: 2em;
+  width: 300px;
+  margin-left: 25px;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+ 
+}
+.container h3{
+text-align: center;
+font-size: 24px;
+margin-bottom: 30px;
+}
+<!--
+.right-side{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.wrapper {
+  background-color: red;
+  height: 800px;
+  display: flex;
+  width: 100%;
+}
+
+.left {
+  background-color: white;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+.left img{
+  width: 390px;
+  height: 390px;
+}
+.lean-btn{
+background-color: black;
+color: white;
+font-size: 2em;
+width: 200px;
+
+}
+
+
+.right {
+  background-color: coral;
+  height: 100%;
+  flex: 2;
+}
+
+.top {
+  background-color:red;
+  height: 400px;
+  display: flex;
+  gap: 16px;
+}
+
+.top .item {
+  background-color: black;
+  height: 250px;
+  flex: 1;
+}
+
+.bottom {
+  background-color: blueviolet;
+  height: 400px;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+.skills-pht{
+  width: 390px;
+  height: 390px;
+}
+.container p{
+  color: rgba(143, 149, 165, 1);
+  font-size: 22px;
+  margin-top: 30px;
+}
+.container h4{
+  color: black;
+  font-size: 2em;
+}
+
+
+.about{
+  display: flex;
+ height: 100%;
+ width: 100%;
+ 
+}
+.about h3{
+ margin-bottom: 30px;
+ font-size: 2em;
+}
+.about p{
+  color:  #8F95A5;
+  font-size: 1.5em;
+}
+.left-about{
+  display: flex;
+  flex-direction: column;
+ 
+justify-content: center;
+}
+.right-about{
+  flex: 1;
+}
+.number{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 0;
+  margin-bottom: 0;
+  color: #8F95A5;
+  }
+  .number h5{
+    color: black;
+  font-weight: bold;
+  font-size: 2em;
+  }
+.right-about img{
+  width: 400px;
+  height: 400px;
+margin-left: 0;
+}
+.pricing{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  }
+  .pricing h2 {
+    text-align: start;
+    font-size: 30px;
+  }
+  .pricing p{
+    font-size: 20px;
+    color:rgba(143, 149, 165, 1);
+    text-align: start;
+    width: 350px;
+  }
+  .pricing div{
+    width: 600px;
+    height: 700px;
+    border: 5px solid red;
+   
+  }
+ .div-pricing{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+ }
+ .div-pricing h3{
+  font-size: 1.5em;
+ }
+ .self-study{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+ 
+ }
+ .self-study h2{
+  margin-left: 0;
+  margin-top: 30px;
+font-size: 1.5em;
+ }
+ .self-study p{
+margin-top: 30px;
+text-align: left;
+
+ }
+ .study-img{
+  min-height: 350px;
+ }
+
+  .price{
+  background:#F5F5F5;;
+  margin-left: 0;
+  font-size: 2em;
+  width: 250px;
+  text-decoration: none;
+  color:  rgba(84, 98, 105, 1);
+  margin-top: 50px;
+  }
+  .price span{
+    font-weight: bold;
+    font-size: 1em;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-around;
+  }
+  .text-pricing{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .last-div{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    border: 5px solid brown;
+    justify-content: space-around;
+   
+  }
+  .input{
+    width: 450px;
+    height: 80px;
+    border: 4px solid rgba(143, 149, 165, 1);
+  }
+  .sub{
+    width: 264px;
+    height: 79px;
+    color: #F5F5F5;
+    background-color: #263238;
+    font-size: 24px;
+  }
+  .last-prgh p{
+    font-size: 20px;
+  color: #8F95A5;
+  width: 776px;
+  }
+  .last-prgh{
+    font-size: 30px;
+  }
+  
